@@ -1,0 +1,100 @@
+{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	/*imagem de fundo da pagina*/
+	background-image: url("../IMAGENS/fundo3.jpg");
+	background-position: 50% 60%;  /*alterar posicao da imagem*/
+	color: white;
+	font-family: arial;
+}
+
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;   /*borda arredondada*/
+	border:1px solid black;
+	font-size: 16pt;
+	/*padding para desgrudar o placeholder*/
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.01);
+	color: white;
+	outline: none;  /* sem contorno*/
+}
+
+
+div#corpo-formulario{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 140px auto 0px auto;
+
+}
+
+div#corpo-formulario-regis
+{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 80px auto 0px auto;
+
+}
+
+/*formatando o ENTRAR e REGISTAR*/
+
+div#corpo-formulario h1,div#corpo-formulario-regis{   
+	text-align: center;
+	padding: 20px;
+	
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color: #FF0066;
+	border: none;
+	cursor: pointer;  /* para aparecer a maozinha*/
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+}
+
+:-moz-placeholder {
+	color:  #fff;
+}
+
+::-moz-placeholder {
+	color: #fff;
+}
+
+:-ms-input-placeholder {
+	color: #fff;
+}
+
+div#msg-ok{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50, .3);
+	border: 1px solid rgb(46, 139, 87);
+
+}
+
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250, 128, 114, 3);
+	border: 1px solid rgb(178, 34, 34);
+
+}
